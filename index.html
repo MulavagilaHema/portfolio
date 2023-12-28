@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website - Mulavagila Hemasri</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbc98b54e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-caret-down" onclick="openmenu()"></i>     
+           </nav>
+        <div class="header-text">
+            <p>FullStack Web Developer</p>
+            <h1>Hi, I'm <span>Hemasri</span><br>Renuka From India</h1>
+        </div>
+    </div>
+</div> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hello there! I'm Mulavagila Hemasri, an enthusiastic undergraduate student majoring in Computer Science and Engineering. My passion lies in crafting responsible and dynamic full-stack websites that seamlessly blend creativity with functionality. As a dedicated learner in the ever-evolving world of technology, I am committed to honing my skills and pushing the boundaries of what's possible in full-stack web development. Through my journey, I aspire to contribute innovative solutions and create immersive digital experiences. Join me as I embark on this exciting adventure in the vast realm of web development!
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C,C++,Python</span><br>Python Frameworks</li>
+                        <li><span>Web Development</span><br>Mern Stack</li>
+                        <li><span>Machine Learning</span><br>Artificial Intelligence</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="experience">
+                    <ul>
+                        <li><span>I'm a fresher</span><br>Looking for the oppurtunities</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>2022-2026</span><br>B.Tech in the field of CS from JNTUACE Pulivendula,Andhra pradesh</li>
+                        <li><span>2020-2022</span><br>Intermediate in the stream of MPC from Vijaya Krishna Junior college Tirupati,Andhra pradesh</li>
+                        <li><span>2019-2020</span><br>SSC from Vijaya Krishna High School,Tirupati,Andhra pradesh</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My skills</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Full-Stack Web Development</h2>
+            <p>Embark on a journey of digital transformation with my expertise in full-stack web development. From crafting pixel-perfect, user-friendly interfaces to implementing robust back-end functionalities, I specialize in delivering end-to-end solutions that cater to your unique needs.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-sketch"></i>
+            <h2>Responsive Web Design</h2>
+            <p>Ensure an optimal user experience across devices with my commitment to responsive web design. I create websites that adapt seamlessly to various screen sizes, offering a consistent and engaging experience for every visitor.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h2>Creative UI/UX Design</h2>
+            <p>Elevate your online presence with visually appealing and intuitively designed user interfaces. I bring a creative touch to user experience design, ensuring that your website not only functions flawlessly but also captivates your audience. </p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Application Development</h2>
+            <p>Transform your ideas into dynamic web applications. I have a passion for turning concepts into reality, leveraging the latest technologies and frameworks to build scalable and efficient web solutions.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-bug"></i>
+            <h2>Problem-Solving and Debugging</h2>
+            <p>Encounter a bug or facing a technical challenge? I thrive on problem-solving and debugging. Let me unravel the complexities of your codebase and implement effective solutions to keep your web applications running smoothly.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <h2>Continuous Maintenance and Support</h2>
+            <p>Your journey doesn't end with the launch of your website or application. I offer continuous maintenance and support services, ensuring that your digital assets stay up-to-date, secure, and optimized for peak performance.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+</div>
+</div>
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/python puzzler.png">
+                <div class="layer">
+                    <h3>Quiz Interface</h3>
+                    <p>In this Quiz Interface people are supposed to answer questions related to python programming and ranking will be given according to their performance and will be awarded a certificate of excellence.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/stackoverflow.png">
+                <div class="layer">
+                    <h3>Stack overflow clone</h3>
+                    <p>This is a clone to the very popular website stack overflow. in which most of the features of original website are modified.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/eduhub.png">
+                <div class="layer">
+                    <h3>Online Learning Platform</h3>
+                    <p> Social relevant Website.This is a online learning website in which students are provided the tutorials of various CS/IT courses.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> mulavagilahemasrirenuka@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9985935609</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mulavagila-hemasri-a9062b271//"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Mulavagila1221/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://github.com/MulavagilaHema"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/Mulavagila_Hemasri_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mulavagila Hemasri. All rights reserved.
+            </p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVxRWMAY8-TroTq4p8uUM79YtYb_XmU7DhZE6sor5jgtwKzwgWYYECP6MxgYi7L6t-Kw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent succesfully!"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
